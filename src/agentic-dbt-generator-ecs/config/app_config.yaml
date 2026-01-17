@@ -1,0 +1,11 @@
+aws:
+  region: us-east-1
+  bedrock_model: global.anthropic.claude-haiku-4-5-20251001-v1:0
+
+runtime:
+  max_tokens: 5000
+  temperature: 0.2
+
+logging:
+  s3_bucket: agentic-dbt-gen-dev-agent-logs
+  prefix: runs/
